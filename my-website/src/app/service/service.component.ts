@@ -4,11 +4,10 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-service',
   templateUrl: './service.component.html',
   styleUrls: ['./service.component.scss'],
+  standalone: true,
 })
-export class ServiceComponent  implements OnInit {
-
-  constructor() { }
+export class ServiceComponent implements OnInit {
+  constructor() {}
 
   ngOnInit() {}
-
 }

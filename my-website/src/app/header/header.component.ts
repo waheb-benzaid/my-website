@@ -4,11 +4,10 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
+  standalone: true,
 })
-export class HeaderComponent  implements OnInit {
-
-  constructor() { }
+export class HeaderComponent implements OnInit {
+  constructor() {}
 
   ngOnInit() {}
-
 }
