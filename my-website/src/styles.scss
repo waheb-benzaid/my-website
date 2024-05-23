@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%; /* Ensure the body takes up the full height of the viewport */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+.article {
+  max-height: calc(
+    100vh - 100px
+  ); /* Adjust 100px to your header/footer height */
+  overflow-y: auto;
+}

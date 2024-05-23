@@ -1,0 +1,11 @@
+/* Example CSS */
+.navbar-link {
+  cursor: pointer; /* Ensure the cursor is a pointer */
+  /* Add other styling as necessary */
+}
+
+.navbar-item {
+  /* Ensure there are no overlapping elements */
+  position: relative;
+  z-index: 1;
+}
